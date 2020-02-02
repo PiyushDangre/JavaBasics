@@ -2,6 +2,10 @@ package multithreading;
 
 public class TestSleep extends Thread {
 
+	/**
+	 * Thread.sleep() pauses thread execution
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TestSleep t = new TestSleep();
