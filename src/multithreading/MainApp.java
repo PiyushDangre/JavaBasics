@@ -11,7 +11,7 @@ public class MainApp extends Thread {
 	 	
 	 	RunnableClass r = new RunnableClass();
 	 	Thread t = new Thread(r);
-	 	t.start();
+	 	t.start(); 
  }
  
  
