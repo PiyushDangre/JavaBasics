@@ -18,6 +18,10 @@ public class DaemonThreadTest extends Thread {
 		d3.start();
 	}
 	
+	
+	/**
+	* Run method
+	*/
 	public void run() {
 		
 		if(Thread.currentThread().isDaemon()) {
