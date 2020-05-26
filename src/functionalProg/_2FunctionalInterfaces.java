@@ -148,7 +148,7 @@ public class _2FunctionalInterfaces {
 			
 		};
 		
-		consumer.accept("Piyush");
+		consumer.accept("Piyush"); // Prints --> I accepted string - Piyush
 		
 		}
 
