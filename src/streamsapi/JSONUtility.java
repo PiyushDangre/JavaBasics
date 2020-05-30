@@ -10,6 +10,12 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+/**
+ * This class just reads the MOCK JSON data.
+ * Download the json-simple.jar for this class to work
+ * @author user
+ *
+ */
 public class JSONUtility {
 	
 	public static ArrayList getCollectionFromFile() {

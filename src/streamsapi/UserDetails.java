@@ -1,5 +1,10 @@
 package streamsapi;
 
+/**
+ * Normal POJO
+ * @author user
+ *
+ */
 public class UserDetails {
 
 	private int id ;
