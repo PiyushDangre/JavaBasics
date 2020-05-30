@@ -3,6 +3,11 @@ package functionalProg;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
+/**
+ * Resources --> http://tutorials.jenkov.com/java-functional-programming/functional-composition.html#java-functional-composition-example
+ * @author Piyush Dangre
+ *
+ */
 public class _3FunctionalComposition {
 	/**
 	 * ** What is FUNCTIONAL COMPOSITION

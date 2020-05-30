@@ -11,8 +11,8 @@ public class TreeSetInterface {
 		
 		
 		/**
-		 * Ordering in the set is provided by defaault in treeset ini natural
-		 * order whether or not a coparator is provided. So , it does not follow
+		 * Ordering in the set is provided by default in treeset in natural
+		 * order whether or not a comparator is provided. So , it does not follow
 		 * insertion order.
 		 */
 		TreeSet<String> ts = new TreeSet<String>();
