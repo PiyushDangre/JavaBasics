@@ -13,6 +13,7 @@ import org.json.simple.parser.JSONParser;
 /**
  * This class just reads the MOCK JSON data.
  * Download the json-simple.jar for this class to work
+ * MOCK DATA generated from Mockaroo.com
  * @author user
  *
  */
