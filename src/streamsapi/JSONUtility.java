@@ -25,7 +25,7 @@ public class JSONUtility {
 	      try {
 	         Object obj = parser.parse(new FileReader("/Users/User/Downloads/MOCK_DATA.json"));
 	         JSONArray jsonArray = (JSONArray)obj;
-	         Logger.getLogger(JSONUtility.class.getName()).info(jsonArray.toJSONString());
+	      //   Logger.getLogger(JSONUtility.class.getName()).info(jsonArray.toJSONString());
 	         Iterator itr = jsonArray.iterator();
 	         while(itr.hasNext()) {
 	        	 	UserDetails user = new UserDetails();
@@ -38,7 +38,7 @@ public class JSONUtility {
 	        	 	user.setIpAddress(jsonObject.get("ip_address").toString());
 	        	 	users.add(user);
 	         }
-	         System.out.println(users);
+	  //       System.out.println(users);
 	      } catch(Exception e) {
 	         e.printStackTrace();
 	      }

@@ -98,8 +98,8 @@ public class ListInterface {
 		System.out.println("The object is present at popsition - " + index);
 
 		/**
-		 * replaceAll() is used to transform all elements of the arraylist. We need to
-		 * pass on an instace of implementation of UnaryOperator interface which has
+		 * replaceAll() is used to TRANSFORM all elements of the arraylist. We need to
+		 * pass on an instance of implementation of UnaryOperator interface which has
 		 * apply() method in it. The logic for transformation is present in apply()
 		 * method of the class which implements UnaryOperator interface. Do not confuse
 		 * this with the Collections.replaceAll() method which actually finds and
@@ -143,10 +143,10 @@ public class ListInterface {
 		/**
 		 * Sort() method takes implementation of Comparator interface. The instance of
 		 * comparator interaface has compare method which takes two Person parameters as
-		 * the arraylist of type Person. It has the logic for compariosn accroding to
+		 * the arraylist of type Person. It has the logic for comparison according to
 		 * name. For sorting based on multiple fields , we have to use the
 		 * Collections.sort() method and Comparator interface and implement method
-		 * chaaining to obtain the result.
+		 * chaining to obtain the result.
 		 */
 		ppl.sort(new SortAlphabetically());
 		System.out.println("Sorted aaccording to Name field- " + ppl);
