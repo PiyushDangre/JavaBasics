@@ -7,3 +7,7 @@ https://github.com/PiyushDangre/JavaBasics/tree/master/src/functionalProg
 
 Resources-
 Jenkov Tutorials
+
+## Pending Topics
+
+- Optional
